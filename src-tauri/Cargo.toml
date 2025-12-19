@@ -1,0 +1,26 @@
+[package]
+name = "tauri-deepgram-app"
+version = "0.1.0"
+description = "A voice-to-text desktop app"
+authors = ["Chandana"]
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2.0.0", features = [] }
+
+[dependencies]
+tauri = { version = "2.0.0", features = [] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# ✅ Tauri v2 plugins (VERY IMPORTANT)
+tauri-plugin-store = "2.4.1"
+tauri-plugin-window-state = "2.4.1"
+
+tokio = { version = "1", features = ["full"] }
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]
+
+
