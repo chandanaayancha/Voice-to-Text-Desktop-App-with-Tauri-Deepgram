@@ -1,0 +1,1 @@
+# Voice-to-Text-Desktop-App-with-Tauri-Deepgram
