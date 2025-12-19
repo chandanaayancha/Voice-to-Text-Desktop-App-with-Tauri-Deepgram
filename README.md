@@ -1,11 +1,26 @@
-<<<<<<< HEAD
-# Tauri + React
+# 🎤 Voice-to-Text Desktop App with Tauri & React
 
-This template should help get you started developing with Tauri and React in Vite.
+A simple desktop application that converts speech into text in real time using modern web technologies and Tauri.
 
-## Recommended IDE Setup
+---
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
-=======
-# Voice-to-Text-Desktop-App-with-Tauri-Deepgram
->>>>>>> c241dedb87f6ac7019900a2453ed412eff4e32f8
+## 🚀 Features
+- Start and stop voice recording
+- Real-time speech-to-text conversion
+- Simple and clean user interface
+- Desktop app built using Tauri
+- Lightweight and fast
+
+---
+
+## 🛠️ Tech Stack
+- React (Frontend)
+- Tauri (Rust Backend)
+- JavaScript
+- HTML & CSS
+- Web Speech API
+
+---
+
+## 📂 Project Structure
+
